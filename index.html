@@ -5,11 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anagramas 1 </title>
+    <style>
+        @media(max-width: 600px) {
+            #botao {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            h1 {
+                text-align: center;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <h1>Anagramas</h1>
-    <div>
+    <div id="botao">
         <input type="text" id="input" size="20%">
         <button id="findButton">Encontrar Anagramas</button>
     </div>
